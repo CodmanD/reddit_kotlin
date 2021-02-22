@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="styleTextPost">
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="toolbar_theme" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">?attr/textAppearanceHeadline2</item>
+        <item name="titleTextColor">@color/text_blue</item>
+        <item name="subtitleTextAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="subtitleTextColor">@color/text_blue</item>
+        <!-- Overrides minimum height in landscape to avoid headline6 and subtitle1 height concerns. -->
+        <item name="android:minHeight">@dimen/mtrl_toolbar_default_height</item>
+        <item name="maxButtonHeight">@dimen/mtrl_toolbar_default_height</item>
+    </style>
+
+
+    <style name="route_title" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:color">#ffff0000</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">reddit_kotlin</string>
+    <string name="author">authorPost</string>
+    <string name="description">Description</string>
+    <string name="date">Datetime</string>
+    <string name="comments">&#160;comments</string>
+    <string name="like">like</string>
+    <string name="post">post</string>
+    <string name="hours_ago">&#160;hours ago</string>
+    <string name="download_file">download</string>
+    <string name="file_ok">saved</string>
+    <string name="file_error">error</string>
+</resources>
